@@ -1,0 +1,37 @@
+/*Universidad Tecnologica Nacional
+ Actividad N°1 | Laboratorio I
+  Alumno: Alex Bogao*/
+
+#include <iostream>
+using namespace std;
+int main () {
+    int a , b , c , m1 , m2 , m3 ;
+    cout << "ingrese el primer numero: " ;
+    cin >> a ;
+    cout << "ingrese el segundo numero: " ;
+    cin >> b ;
+    cout << "ingrese el tercer numero: " ;
+    cin >>c ;
+    if (a > b){
+            m1=a ; }
+    else {
+            m1 = b ; }
+            if (m1 < c){
+                m1 = c ; }
+                if(a < b){
+                    m3 = a ;}
+                    else {
+                        m3 = b ; }
+                        if (m3 < c) {
+                                m2 = c  ; }
+                                else {
+                                    m3 = c  ; }
+                                    if (m1 > a && m3 < a){
+                                        m2 = a  ; }
+                                        else {
+                                                m2 = b; }
+                                                cout << "el primer numero es : " << m3 <<endl ;
+                                                cout << "el segundo numero es: " << m2 <<endl ;
+                                                cout << "el tercer numero es : " << m1 <<endl ;
+                    return 0 ;
+}

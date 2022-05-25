@@ -1,0 +1,18 @@
+/*Universidad Tecnologica Nacional
+ Actividad N°5 | Laboratorio I
+  Alumno: Alex Bogao*/
+
+#include <iostream>
+using namespace std;
+int main () {
+    float importe , porcentaje , descuento , descuento2 ;
+    cout << "ingrese importe : " ;
+    cin >> importe ;
+    cout << "ingrese porcentaje de descuento : " ;
+    cin >> porcentaje ;
+    descuento = (porcentaje / 100) * importe ;
+    descuento2 = importe - descuento ;
+    cout << "tu descuento es : " << descuento2 ;
+
+       return 0 ;
+}

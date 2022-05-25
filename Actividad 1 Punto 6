@@ -1,0 +1,27 @@
+/*Universidad Tecnologica Nacional
+ Actividad N°6 | Laboratorio I
+  Alumno: Alex Bogao*/
+
+
+#include <iostream>
+using namespace std;
+int main () {
+    int minutos , horas , aux1 , aux2 ;
+    cout << "ingrese cantidad de minutos : " ;
+    cin >> minutos ;
+    aux1 = minutos % 60 ;
+    if (aux1 > 0) {
+        aux2 = minutos - aux1 ;
+        horas = aux2 / 60 ;
+        minutos = aux1 ;
+        cout << horas <<" horas,"<< minutos << " minutos" ;
+    }
+    else { aux2 = minutos - aux1 ;
+        horas = aux2 / 60 ;
+        minutos = aux1 ;
+            cout << horas <<" horas,"<< minutos << " minutos" ;
+
+    }
+
+       return 0 ;
+}

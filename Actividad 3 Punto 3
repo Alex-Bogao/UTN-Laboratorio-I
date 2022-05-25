@@ -1,0 +1,55 @@
+/*Universidad Tecnologica Nacional
+ Actividad N°3 | Laboratorio I
+  Alumno: Alex Bogao*/
+
+
+#include <iostream>
+using namespace std;
+
+int main (){
+    int horas ;
+    char tipo ;
+    bool urgencia ;
+    float valorHora ;
+    float tarifa ;
+
+    cout << "Cantidad de horas: " ;
+    cin >> horas ;
+    cout << "Tipo de legunaje: " ;
+    cin >> tipo ;
+    cout << "Es urgente? (1-Si/0-No) :" ;
+    cin >> urgencia ;
+
+    switch (tipo) {
+
+    case 'C':
+        valorHora=2500;
+
+    break;
+
+    case'#':
+        valorHora=2100;
+
+    break;
+
+    case 'P':
+        valorHora=1400;
+
+    break;
+
+    case'G':
+        valorHora=2000;
+
+    break;
+    }
+
+    tarifa = horas * valorHora ;
+
+    if (urgencia == 1){
+        tarifa = tarifa * 2.2;
+    }
+
+    cout << "la tarifa es $ " << tarifa << endl ;
+
+    return 0;
+}

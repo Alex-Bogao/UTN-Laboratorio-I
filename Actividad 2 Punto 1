@@ -1,0 +1,23 @@
+/*Universidad Tecnologica Nacional
+ Actividad N°1 | Laboratorio I
+  Alumno: Alex Bogao*/
+
+
+#include <iostream>
+using namespace std;
+int main () {
+    int N1 , N2 ;
+    cout << "ingrese un numero : ";
+    cin >> N1 ;
+    cout << "ingrese otro numero : " ;
+    cin >> N2 ;
+
+    if (N2 % N1 == 0) {
+        cout << "es multiplo" << endl ;
+    }
+    else {
+        cout << "NO es multiplo xD" << endl ;
+    }
+
+                    return 0 ;
+}

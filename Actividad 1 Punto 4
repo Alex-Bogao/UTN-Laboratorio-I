@@ -1,0 +1,30 @@
+/*Universidad Tecnologica Nacional
+ Actividad N°4 | Laboratorio I
+  Alumno: Alex Bogao*/
+
+#include <iostream>
+using namespace std;
+int main () {
+    int sueldo, premio, stotal ;
+    cout << "ingrese autos vendidos : " ;
+    cin >> premio ;
+    sueldo = 15000 ;
+    stotal = sueldo +premio * 2000 ;
+    cout << "su sueldo total es de : "<<stotal ;
+       return 0 ;
+}
+
+#include <iostream>
+using namespace std;
+int main () {
+    float importe , descontado , c , descuento ;
+    cout << "ingrese importe sin descuento : " ;
+    cin >> importe ;
+    cout << "ingrese importe con descuento : " ;
+    cin >> descontado ;
+    c = importe - descontado ;
+    descuento = (100 * c) / importe ;
+    cout << "tu porcentaje de descuento es de un : " << descuento ;
+
+       return 0 ;
+}

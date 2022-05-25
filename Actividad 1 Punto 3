@@ -1,0 +1,15 @@
+/*Universidad Tecnologica Nacional
+ Actividad N°3 | Laboratorio I
+  Alumno: Alex Bogao*/
+
+#include <iostream>
+using namespace std;
+int main () {
+    int sueldo, premio, stotal ;
+    cout << "ingrese autos vendidos : " ;
+    cin >> premio ;
+    sueldo = 15000 ;
+    stotal = sueldo +premio * 2000 ;
+    cout << "su sueldo total es de : "<<stotal ;
+       return 0 ;
+}

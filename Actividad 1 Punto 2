@@ -1,0 +1,20 @@
+/*Universidad Tecnologica Nacional
+  Activida N°1 Punto 2| Laboratorio I
+  Alumno: Alex Bogao*/
+
+
+#include <iostream>
+using namespace std;
+
+int main (){
+    int n1 , n2 , c ;
+    cout << "ingrese un numero " ;
+    cin >> n1 ;
+    cout << "ingrese otro numero " ;
+    cin >> n2 ;
+    c = n1 ;
+    n1 = n2 ;
+    n2 = c ;
+    cout << "numeros cambiados : " << " numero 1: " << n1 << "  numero 2 : " << n2 ;
+    return 0 ;
+    }

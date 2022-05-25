@@ -1,0 +1,23 @@
+/*Universidad Tecnologica Nacional
+  Trabajo Practico N°1| Programacion I
+  Alumno: Alex Bogao*/
+
+#include <iostream>
+using namespace std;
+
+int main (){
+    int horastrabajada , valordelahora , sueldo ;
+    cout << "insertar horas trabajadas : " ;
+
+    cin >> horastrabajada ;
+
+    cout << " insetar valor de la hora : " ;
+
+    cin >> valordelahora ;
+
+    sueldo = horastrabajada * valordelahora ;
+
+    cout << "su sueldo es de : " << sueldo ;
+
+    return 0 ;
+}
